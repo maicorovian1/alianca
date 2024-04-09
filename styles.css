@@ -7,12 +7,13 @@ body {
 .navbar-nav {
     position: sticky;
     top: 0;
-    background-color: #5b5960; /* Cor de fundo branco gelo */
-    color: #0c0036; /* Cor do texto azul marinho escuro */
+    background-color: #d1d0d2; /* Cor de fundo branco gelo */
+    color: #090222; /* Cor do texto azul marinho escuro */
     z-index: 1;
     display: flex;
+    font-size:120%;
     
-    
+    width: 100%;
     height: 50px; /* Altura do menu */
     
 }
@@ -22,6 +23,15 @@ body {
    
 }
 
+#navbarMenu .nav-link {
+    padding: 0 1rem;
+    transition: all 0.3s ease;
+}
+
+#navbarMenu .nav-link:hover {
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+}
 .secao {
     padding: 5px;
     margin: 10px;

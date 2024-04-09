@@ -33,3 +33,16 @@ if (localStorage.getItem("visitorCount")) {
 const currentVisitorCount = parseInt(visitorCountElement.textContent) + 1;
 visitorCountElement.textContent = currentVisitorCount;
 localStorage.setItem("visitorCount", currentVisitorCount);
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navbarMenu = document.querySelector("#navbarMenu");
+
+    navbarMenu.addEventListener("click", function(event) {
+        if (event.target.tagName === "A") {
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            navbarToggler.click();
+        }
+    });
+});
