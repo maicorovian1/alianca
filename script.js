@@ -46,3 +46,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    let count = localStorage.getItem("visitorCount") || 0; // Verifica se há um valor salvo, senão inicia em 0
+    count++; // Incrementa o contador
+    localStorage.setItem("visitorCount", count); // Salva o novo valor no armazenamento local
+    document.getElementById("visitorCount").textContent = count; // Atualiza o contador na página
+});
