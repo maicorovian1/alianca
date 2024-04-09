@@ -23,8 +23,8 @@ body {
 }
 
 .secao {
-    padding: 20px;
-    margin: 20px;
+    padding: 5px;
+    margin: 5px;
     
 }
 
@@ -33,7 +33,7 @@ body {
     bottom: 20px;
     right: 20px;
     display: none;
-    background-color: #007bff;
+    background-color: #21d584;
     color: white;
     padding: 10px 20px;
     border: none;
