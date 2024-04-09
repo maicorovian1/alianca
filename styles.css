@@ -7,8 +7,8 @@ body {
 .navbar-nav {
     position: sticky;
     top: 0;
-    background-color: #150d29; /* Cor de fundo branco gelo */
-    color: #f9fafb; /* Cor do texto azul marinho escuro */
+    background-color: #5b5960; /* Cor de fundo branco gelo */
+    color: #0c0036; /* Cor do texto azul marinho escuro */
     z-index: 1;
     display: flex;
     
@@ -24,7 +24,7 @@ body {
 
 .secao {
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     
 }
 
