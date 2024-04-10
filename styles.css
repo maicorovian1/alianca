@@ -7,8 +7,8 @@ body {
 .navbar-nav {
     position: sticky;
     top: 0;
-    background-color: #d1d0d2; /* Cor de fundo branco gelo */
-    color: #090222; /* Cor do texto azul marinho escuro */
+    background-color: #faf9fc; /* Cor de fundo branco gelo */
+    color: #000000; /* Cor do texto azul marinho escuro */
     z-index: 1;
     display: flex;
     font-size:120%;
@@ -29,8 +29,9 @@ body {
 }
 
 #navbarMenu .nav-link:hover {
-    background-color: #f8f9fa;
+    background-color: #0b034e;
     border-radius: 1rem;
+    color: #faf9fc;
 }
 .secao {
     padding: 5px;
@@ -56,7 +57,15 @@ body {
 }
 
 .carousel-item img {
-    width: 1200px;
-    height:500px;
+    width: 900px;
+    height:475px;
     object-fit: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.modern-font {
+    font-family: 'Poppins', sans-serif; /* Substitua 'Poppins' pela fonte desejada do Google Fonts */
+    font-weight: 700; /* Peso da fonte (bold) */
+    /* Adicione outros estilos de fonte desejados, como tamanho, cor, etc. */
 }
