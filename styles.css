@@ -68,8 +68,8 @@ body {
 }
 
 .carousel-item img {
-    width: 900px;
-    height:475px;
+    width: 1250px;
+    height:500px;
     object-fit: cover;
 }
 
