@@ -89,9 +89,9 @@ body {
 .btn {
    
   
-    width: 100%;
+    width: 20%;
     height:100%;
-    background-color: transparent; /* Alteração para fundo transparente */
+    background-color: #21d584; /* Alteração para fundo transparente */
     color: white;
     text-align: center;
     text-decoration: none;
