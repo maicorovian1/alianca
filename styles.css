@@ -1,0 +1,65 @@
+body {
+    background-color:#011837; /* Cor de fundo para o body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1040px; /* Considerando 20px de gap entre as divs */
+}
+
+.box {
+    position: relative;
+    flex: 1 1 calc(50% - 20px); /* Ocupa 50% da largura do container menos o gap */
+    height: 500px;
+     /* Para visualização */
+    box-sizing: border-box; /* Inclui a borda no tamanho total */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px; /* Espaço entre as linhas de imagens */
+}
+
+#box1 {
+    background-image: url('1.png');
+}
+
+#box2 {
+    background-image: url('2.png');
+}
+
+#box3 {
+    background-image: url('3.png');
+}
+
+#box4 {
+    background-image: url('4.png');
+}
+
+.whatsapp-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #25d366; /* Cor do botão do WhatsApp */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .box {
+        flex: 1 1 100%; /* Cada div ocupa 100% da largura em telas menores */
+    }
+}
