@@ -43,6 +43,13 @@ body {
 #box4 {
     background-image: url('4.png');
 }
+#box5 {
+    background-image: url('5.png');
+}
+
+#box6 {
+    background-image: url('6.png');
+}
 
 .whatsapp-button {
     position: absolute;
